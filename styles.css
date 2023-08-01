@@ -1,0 +1,39 @@
+
+.grid {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  border: 2px solid rgb(9, 9, 45);
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+.grid div {
+  width: 20px;
+  height: 20px;
+}
+
+.btn {
+  border: none;
+  padding: 10px;
+  margin: 10px auto;
+  border-radius: 2px;
+  background-color: orange;
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.score {
+  margin: 10px 5px;
+  text-transform: uppercase;
+}
+
+.snake {
+  background-color: darkblue;
+}
+
+.apple {
+  background-color: peru;
+}
